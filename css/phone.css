@@ -1,0 +1,66 @@
+#navbar {
+    flex-direction: column;
+    justify-content: center;
+    height: 160px;
+}
+
+#navbar ul li a {
+    font-size: 16px;
+    ;
+}
+
+#home h1 {
+
+    font-size: 20px;
+
+}
+
+#home p {
+    font-size: 16px;
+
+}
+
+#home {
+    height: 250px;
+    padding: 0px;
+}
+
+#home::before {
+    height: 600px;
+}
+
+.h-primary {
+
+    margin-bottom: -4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#services {
+    flex-direction: column;
+}
+
+.box {
+    margin: 45px 16px;
+    width: 424px;
+    height: 365px;
+    overflow: hidden;
+}
+
+.clients{
+   flex-wrap: wrap;
+
+}
+.clientslogo img {
+    width: 100px;
+
+}
+
+.inputform form{
+    width: 80%;
+}
+
+.userinput {
+    padding-bottom: 5px;
+
+}

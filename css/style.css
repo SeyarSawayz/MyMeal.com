@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navbar Section */
+
+
+#navbar {
+    display: flex;
+    height: 100px;
+    position: relative;
+    top: 0;
+    align-items: center;
+
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    margin-left: -32px;
+
+
+}
+
+#navbar ul li {
+    list-style: none;
+
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+
+
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+
+
+}
+
+.logo {
+    display: flex;
+    margin: 7px;
+
+}
+
+.logo img {
+    width: 68px;
+    border-radius: 50%;
+
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 400px;
+    height: 400px;
+    text-align: center;
+
+}
+
+#home::before {
+    content: "";
+    background: url("../img/bg2.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 76%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.h-primary {
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: -4px;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.h-secondary {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#btn {
+    background-color: rgb(26, 15, 15);
+    border-radius: 20px;
+}
+
+#btn:hover {
+    box-shadow: 2px 3px 4px green;
+}
+
+
+#services {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    color: black;
+
+
+
+}
+
+#services-container {
+
+    margin-top: 200px;
+}
+
+#services-container h1 {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 90px 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    width: 592px;
+    height: 388px;
+    padding: 20px;
+    background-color: rgb(247, 243, 243);
+}
+
+.box img {
+    display: block;
+    width: 400px;
+    margin: auto;
+
+}
+
+.box3 {
+
+    height: 250px;
+    width: 150px;
+}
+
+.box2 {
+
+    height: 250px;
+    border-radius: 100%;
+
+}
+
+.mainClients {
+    justify-content: center;
+    position: relative;
+}
+
+.mainClients h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mainClients::before {
+    content: "";
+    background: url('../img/bg3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.clientslogo {
+    width: 250px;
+    padding: 40px 40px;
+    margin-top: 40px;
+
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientslogo img {
+    width: 150px;
+
+}
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.userinput {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+
+}
+
+.inputform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    background: url('../img/bg4.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+
+}
+
+.userinput label {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.userinput input {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+    width: 500px;
+    border-radius: 6px;
+
+}
+
+.userinput textarea {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px;
+    width: 500px;
+    border-radius: 6px;
+
+
+}
+
+
+
+.contactbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.contactbtn button {
+    width: 500px;
+
+}
